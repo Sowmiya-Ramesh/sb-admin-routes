@@ -25,11 +25,11 @@ export default function App() {
             <Router>
               <Switch>
                 <Route exact path="/" component={DashBoard} />
-                <Route path="/profiles" component={Profiles} />
-                <Route path="/create-profile" component={CreateProfile} />
-                <Route path="/edit-profile/:id" component={EditProfile} />
-                <Route path="/users" component={Users} />
-                <Route path="/create-user" component={CreateUser} />
+                <Route exact path="/profiles" component={Profiles} />
+                <Route exact path="/create-profile" component={CreateProfile} />
+                <Route exact path="/edit-profile/:id" component={EditProfile} />
+                <Route exact path="/users" component={Users} />
+                <Route exact path="/create-user" component={CreateUser} />
                 {/* <Route path="/edit-user/:id" component={EditUser} /> */}
                 {/* <Route path="/add" component={AddProduct} /> */}
               </Switch>
