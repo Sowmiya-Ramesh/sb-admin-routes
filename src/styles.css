@@ -16,10 +16,7 @@
   
  
 }
-.container{
-  display :flex;
-  flex-direction: column;
-}
+
  :root {
   --blue: #4e73df;
   --indigo: #6610f2;
